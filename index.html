@@ -1,30 +1,56 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-  <title>نتيجة القبول</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="sidebar">
-    <h2>القائمة</h2>
-    <ul>
-      <li>بيانات الطالب</li>
-      <li>نتائج الاختبارات</li>
-      <li>بيان التجنيد</li>
-      <li>الكشف الطبي</li>
-      <li>اللياقة البدنية</li>
-    </ul>
-  </div>
+body {
+  font-family:  Cairo , sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  direction: rtl;
+  color: black;
+}
 
-  <div class="content">
-    <h1>أكاديمية الشرطة</h1>
-    <p><strong>الإسم:</strong> أحمد محمد عبد الله</p>
-    <p><strong>الرقم القومي:</strong> 20011234567890</p>
-    <p><strong>النتيجة:</strong> <span class="result">لائق</span></p>
-    <p><strong>سبب:</strong> —</p>
+.sidebar {
+  background-color: #0066cc;
+  width: 240px;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding: 20px;
+  color: white;
+}
 
-    <img src="test-result.png" alt="صورة النتيجة" class="result-image">
-  </div>
-</body>
-</html>
+.sidebar h2 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.content {
+  margin-right: 260px;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.result {
+  font-weight: bold;
+  color: green;
+}
+
+.result-image {
+  margin-top: 30px;
+  max-width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
