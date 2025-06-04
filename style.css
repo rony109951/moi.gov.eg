@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: "Cairo", sans-serif;
+  background-color: #f9f9f9;
+  direction: rtl;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 260px;
+  background-color: #002c70;
+  color: #fff;
+  padding: 20px;
+}
+
+.sidebar .logo {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.sidebar h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 12px;
+}
+
+.sidebar ul li a {
+  color: #000; /* الخط لونه أسود */
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  background-color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.sidebar ul li a:hover {
+  background-color: #d3e2ff;
+}
+
+.content {
+  flex: 1;
+  padding: 30px;
+  background-color: #fff;
+}
+
+.content h1 {
+  margin-bottom: 20px;
+  color: #002c70;
+  font-size: 24px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 16px;
+}
+
+thead {
+  background-color: #002c70;
+  color: #fff;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
