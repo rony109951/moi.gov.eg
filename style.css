@@ -1,82 +1,56 @@
 body {
+  font-family:  Cairo , sans-serif;
   margin: 0;
-  font-family: "Cairo", sans-serif;
-  background-color: #f9f9f9;
+  background-color: #f4f4f4;
   direction: rtl;
-}
-
-.container {
-  display: flex;
-  min-height: 100vh;
+  color: black;
 }
 
 .sidebar {
-  width: 260px;
-  background-color: #002c70;
-  color: #fff;
+  background-color: #0066cc;
+  width: 240px;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
   padding: 20px;
+  color: white;
 }
 
-.sidebar .logo {
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-.sidebar h3 {
-  font-size: 18px;
-  margin-bottom: 20px;
-  color: #fff;
+.sidebar h2 {
+  margin-top: 0;
+  font-size: 22px;
 }
 
 .sidebar ul {
-  list-style: none;
+  list-style-type: none;
   padding: 0;
 }
 
 .sidebar ul li {
-  margin-bottom: 12px;
-}
-
-.sidebar ul li a {
-  color: #000; /* الخط لونه أسود */
-  text-decoration: none;
-  font-weight: bold;
-  display: block;
-  background-color: #fff;
-  padding: 8px 12px;
-  border-radius: 4px;
-  transition: background 0.3s;
-}
-
-.sidebar ul li a:hover {
-  background-color: #d3e2ff;
+  margin: 15px 0;
+  font-size: 18px;
 }
 
 .content {
-  flex: 1;
-  padding: 30px;
-  background-color: #fff;
+  margin-right: 260px;
+  padding: 40px;
 }
 
-.content h1 {
+h1 {
+  font-size: 30px;
   margin-bottom: 20px;
-  color: #002c70;
-  font-size: 24px;
+  color: #000;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  text-align: center;
-  font-size: 16px;
+.result {
+  font-weight: bold;
+  color: green;
 }
 
-thead {
-  background-color: #002c70;
-  color: #fff;
-}
-
-th, td {
-  border: 1px solid #ccc;
-  padding: 10px;
+.result-image {
+  margin-top: 30px;
+  max-width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 8px;
 }
