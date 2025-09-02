@@ -46,6 +46,47 @@ button {
   padding: 40px;
   box-sizing: border-box;
   color: #000;
+  white-space: pre-wrap; /* هذا يساعد على تنسيق النص */
+  font-size: 22px;
+  line-height: 1.8;
+  font-family:  Indie Flower , cursive; /* الخط اليدوي */
+  text-align: right; /* النص يكون من اليمين لليسار */
+}
+
+.whatsapp {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.whatsapp a {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #555;
+  }
+  .notebook-section {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.notebook {
+  min-height: 500px;
+  background: url( notebook.jpg ) no-repeat center center;
+  background-size: cover;
+  padding: 40px;
+  box-sizing: border-box;
+  color: #000;
   white-space: pre-wrap;
   font-size: 22px;
   line-height: 1.8;
