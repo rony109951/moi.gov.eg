@@ -1,56 +1,42 @@
-body {
-  font-family:  Cairo , sans-serif;
-  margin: 0;
-  background-color: #f4f4f4;
-  direction: rtl;
-  color: black;
-}
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>كتابة على الكراسة</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
 
-.sidebar {
-  background-color: #0066cc;
-  width: 240px;
-  height: 100vh;
-  position: fixed;
-  right: 0;
-  top: 0;
-  padding: 20px;
-  color: white;
-}
+<header>
+  <h1>تم برمجه الموقع من خلال روني البحيره</h1>
+</header>
 
-.sidebar h2 {
-  margin-top: 0;
-  font-size: 22px;
-}
+<section class="input-section">
+  <h2>اكتب النص هنا (حتى 1400 حرف):</h2>
+  <textarea id="userText" placeholder="اكتب هنا" maxlength="1400"></textarea>
+  <button onclick="writeText()">حط النص على الكراسة</button>
+</section>
 
-.sidebar ul {
-  list-style-type: none;
-  padding: 0;
-}
+<section class="notebook-section">
+  <div class="notebook" id="notebookText">
+    <!-- النص هيظهر هنا -->
+  </div>
+</section>
 
-.sidebar ul li {
-  margin: 15px 0;
-  font-size: 18px;
-}
+<section class="whatsapp">
+  <a href="https://whatsapp.com/channel/0029Vb66boW4CrfnqaLzRv2A" target="_blank">
+    تواصل معنا على قناة الواتساب
+  </a>
+  <p>رقم المطور: 01212843252</p>
+</section>
 
-.content {
-  margin-right: 260px;
-  padding: 40px;
-}
+<footer>
+  جميع الحقوق محفوظة لدى روني البحيره
+</footer>
 
-h1 {
-  font-size: 30px;
-  margin-bottom: 20px;
-  color: #000;
-}
-
-.result {
-  font-weight: bold;
-  color: green;
-}
-
-.result-image {
-  margin-top: 30px;
-  max-width: 100%;
-  border: 2px solid #ccc;
-  border-radius: 8px;
-}
+<script src="script.js"></script>
+</body>
+    </html>
+  
